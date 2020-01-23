@@ -1,0 +1,17 @@
+$iconSet: (
+  alarm: url("../assets/icons/alarm.svg"),
+  code: url("../assets/icons/code.svg")
+);
+
+.icon {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+}
+
+@each $iconName, $iconPath in $iconSet {
+  .icon-#{$iconName}:before {
+    font-icon: $iconPath;
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "frontend-erfa-frontline-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development",
+    "storybook": "start-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-knobs": "^5.3.7",
+    "@storybook/react": "^5.3.7",
+    "cross-env": "^6.0.3",
+    "node-sass": "^4.13.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@akqa-frontline/asset-config-webpack-plugin": "^0.3.0",
+    "@akqa-frontline/font-config-webpack-plugin": "^0.3.0",
+    "@akqa-frontline/image-config-webpack-plugin": "^0.3.0",
+    "@akqa-frontline/js-config-webpack-plugin": "^0.3.0",
+    "@akqa-frontline/scss-config-webpack-plugin": "^0.3.0",
+    "@akqa-frontline/webpack-config": "^0.3.0",
+    "@babel/runtime": "^7.7.2",
+    "@babel/runtime-corejs3": "^7.7.2",
+    "@hot-loader/react-dom": "^16.11.0",
+    "class-names": "^1.0.0",
+    "core-js": "^3.4.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hot-loader": "^4.12.18"
+  }
+}

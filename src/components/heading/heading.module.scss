@@ -1,0 +1,84 @@
+@import "../../design-tokens/colors.json";
+
+@import "../../styles/functions/map-deep-get";
+
+.heading {
+  font-family: "RobotoCondensed-Regular", sans-serif;
+}
+
+.h1 {
+  font-size: 60px;
+}
+
+.h2 {
+  font-size: 50px;
+}
+
+.h3 {
+  font-size: 40px;
+}
+
+.h4 {
+  font-size: 30px;
+}
+
+.h5 {
+  font-size: 20px;
+}
+
+.h6 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.gray {
+  color: map-deep-get($colors, gray, 0);
+}
+
+.red {
+  color: map-deep-get($colors, red, 0);
+}
+
+.pink {
+  color: map-deep-get($colors, pink, 0);
+}
+
+.grape {
+  color: map-deep-get($colors, grape, 0);
+}
+
+.violet {
+  color: map-deep-get($colors, violet, 0);
+}
+
+.indigo {
+  color: map-deep-get($colors, indigo, 0);
+}
+
+.blue {
+  color: map-deep-get($colors, blue, 0);
+}
+
+.cyan {
+  color: map-deep-get($colors, cyan, 0);
+}
+
+.teal {
+  color: map-deep-get($colors, teal, 0);
+}
+
+.green {
+  color: map-deep-get($colors, green, 0);
+}
+
+.lime {
+  color: map-deep-get($colors, lime, 0);
+}
+
+.yellow {
+  color: map-deep-get($colors, yellow, 0);
+}
+
+.orange {
+  color: map-deep-get($colors, orange, 0);
+}
